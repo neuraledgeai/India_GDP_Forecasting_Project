@@ -92,7 +92,7 @@ def forecast():
         unsafe_allow_html=True
         )
     st.markdown('')
-    st.info("Looks like India is still charging ahead! A **3.5 trillion** economy in 2024, and we're on the way to an even higher number in 2025. Watch out world!")
+    st.info("Looks like India is still charging ahead! A **3.5 trillion** economy in 2024, and an even more impressive leap in 2025, the nation's growth is setting the stage for a powerful future. The world better keep an eye on this rising giant!")
     st.markdown("""
     <div style="text-align: center; font-size: 0.8em; color: grey;">
     This model can make mistakes. Check important info.
