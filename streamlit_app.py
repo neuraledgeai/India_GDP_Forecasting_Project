@@ -171,4 +171,4 @@ elif navigation == "Actual vs Predicted GDP":
 # GitHub Repository section
 elif navigation == "GitHub Repository":
     st.title("GitHub Repository")
-    st.write("[Click here to visit the GitHub repository](https://github.com/your-repo)")
+    st.write("[Click here to visit the GitHub repository](https://github.com/neuraledgeai/India_GDP_Forecasting_Project)")
