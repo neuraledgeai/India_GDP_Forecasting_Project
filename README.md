@@ -1,7 +1,7 @@
 # Forecasting India's Economic Future: A Linear Regression Approach
 This project utilizes historical GDP data of India from 1960 to 2023 to predict future GDP values for 2024 and 2025. Using a linear regression model, it provides insights into the economic trajectory of one of the world's fastest-growing economies. 
 
-At the heart of this project is the `Forecasting_India_GDP.ipynb` notebook. This file contains the full analysis, from data preparation and feature engineering to model building and evaluation.
+At the heart of this project is the [`Forecasting_India_GDP.ipynb`](https://github.com/neuraledgeai/India_GDP_Forecasting_Project/blob/main/Forecasting_India_GDP.ipynb) notebook. This file contains the full analysis, from data preparation and feature engineering to model building and evaluation.
 
 
 
@@ -37,3 +37,5 @@ This project is proudly dedicated to the **open-source community**, with the goa
 Curious about how the model works in practice? You can experience it firsthand by visiting the web app we've developed! This interactive dashboard lets you explore India's GDP forecasts, visualize historical GDP trends, and compare actual versus predicted values with ease.
 
 Check it out here: [India GDP Forecasting App](https://india-gdp-forecasting.streamlit.app).
+
+*This project is proudly dedicated to the open-source community for educational and capability demonstration purposes. It showcases the application of machine learning technology for time series data, while intuitively enhancing essential data science skills. We hope this serves as a valuable resource for anyone looking to explore and learn from practical, real-world examples.*
