@@ -137,7 +137,7 @@ def actual_vs_predicted_gdp():
                    markers=True)
     
     # Update the legend with custom names
-    fig2.for_each_trace(lambda t: t.update(name='Predicted GDP' if t.name == 'wide_variable_0' else 'Actual GDP'))
+    fig2.for_each_trace(lambda t: t.update(name='Actual GDP' if t.name == 'wide_variable_0' else 'Predicted GDP'))
 
     # Show the second plot
     st.plotly_chart(fig2)
