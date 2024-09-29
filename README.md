@@ -36,6 +36,6 @@ This project is proudly dedicated to the **open-source community**, with the goa
 
 Curious about how the model works in practice? You can experience it firsthand by visiting the web app we've developed! This interactive dashboard lets you explore India's GDP forecasts, visualize historical GDP trends, and compare actual versus predicted values with ease.
 
-Check it out here: [India GDP Forecasting App](https://india-gdp-forecasting.streamlit.app).
+Check it out here: [India GDP Forecasting Web App](https://india-gdp-forecasting.streamlit.app).
 
 *This project is proudly dedicated to the open-source community for educational and capability demonstration purposes. It showcases the application of machine learning technology for time series data, while intuitively enhancing essential data science skills. We hope this serves as a valuable resource for anyone looking to explore and learn from practical, real-world examples.*
