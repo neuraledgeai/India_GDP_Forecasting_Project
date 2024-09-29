@@ -32,6 +32,8 @@ This project is proudly dedicated to the **open-source community**, with the goa
 
 ## See the Model Live in Action!
 
+<img width="1431" alt="Screenshot 2024-09-29 at 6 41 11 PM" src="https://github.com/user-attachments/assets/4527c2d0-603e-4400-a4d6-f139adaa1237">
+
 Curious about how the model works in practice? You can experience it firsthand by visiting the web app we've developed! This interactive dashboard lets you explore India's GDP forecasts, visualize historical GDP trends, and compare actual versus predicted values with ease.
 
 Check it out here: [India GDP Forecasting App](https://india-gdp-forecasting.streamlit.app).
