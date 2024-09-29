@@ -135,6 +135,9 @@ def actual_vs_predicted_gdp():
                    title="Actual vs Predicted GDP",
                    labels={'value': 'GDP (in Trillions of USD)', 'Year': 'Year'},
                    markers=True)
+    
+    # Update the legend with custom names
+    fig2.for_each_trace(lambda t: t.update(name='Predicted GDP' if t.name == 'wide_variable_0' else 'Actual GDP'))
 
     # Show the second plot
     st.plotly_chart(fig2)
