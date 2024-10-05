@@ -6,7 +6,7 @@ At the heart of this project is the [`Forecasting_India_GDP.ipynb`](https://gith
 ## Table of Contents
 
 - [Dataset Overview](#dataset-overview)
-- [Purpose](#purpose)
+- [Purpose of This Project](#purpose-of-this-project)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
 - [Access the Full Project](#access-the-full-project)
@@ -30,7 +30,7 @@ The data used in this project is sourced from the [World Bank](https://data.worl
 
 The exploration phase of the data provided clear evidence of a strong linear trend between past and future GDP values, which was leveraged to build and train the model.
 
-## Purpose
+## Purpose of This Project
 This project is designed for **educational purposes** and to demonstrate the **capabilities** of time series analysis using linear regression. Through this project, you’ll gain an intuitive understanding of how to approach time series forecasting in a practical and reasonable way. It encompasses various aspects of data science, such as:
 
 - **Data preparation**
