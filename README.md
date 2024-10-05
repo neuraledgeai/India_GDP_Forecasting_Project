@@ -9,8 +9,9 @@ At the heart of this project is the [`Forecasting_India_GDP.ipynb`](https://gith
 - [Purpose of This Project](#purpose-of-this-project)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
-- [Access the Full Project](#access-the-full-project)
+- [Model Description](#model-description)
 - [See the Model Live in Action!](#see-the-model-live-in-action)
+- [Access the Full Project](#access-the-full-project)
 
 ## Dataset Overview
 
@@ -55,11 +56,30 @@ This project is proudly dedicated to the **open-source community**, with the goa
 - **Plotly & Matplotlib**: Libraries for creating interactive visualizations.
 - **Streamlit**: Framework for building web applications for data science.
 
-## Access the Full Project
+## Model Description
 
-For anyone interested in the full, detailed steps of this project, including everything from data importing, exploration, splitting, model building, tuning, evaluation, and prediction function to saving the model, please refer to the [`Forecasting_India_GDP.ipynb`](https://github.com/neuraledgeai/India_GDP_Forecasting_Project/blob/main/Forecasting_India_GDP.ipynb) notebook. This notebook is the heart of the project, containing all the comprehensive steps for creating the model.
+This project employs a **Linear Regression** model to forecast India's GDP for the years 2024 and 2025. Linear regression is a fundamental machine learning technique that establishes a relationship between input features and a target variable by fitting a linear equation to the observed data.
 
-Additionally, check out the [`streamlit_app.py`](https://github.com/neuraledgeai/India_GDP_Forecasting_Project/blob/main/streamlit_app.py) file, which is designed to serve as the main backend for deploying the model as a web app.
+- **Model Training**:
+
+   - **Input Feature**: The model was trained using India's GDP_L1, which represents the GDP of the previous year. This feature was selected based on the observed strong correlation between current and past GDP values.
+   - **Target Variable**: The actual GDP values from 1960 to 2023 served as the target variable, representing the ground truth for the model to learn from.
+
+`DGP = b1 + b2 * GDP_L1`
+
+- **Where**:
+   - `b1` is the intercept (constant term),
+   - `b2` is the coefficient (slope), representing the relationship between the GDP of the previous year and the predicted GDP.
+ 
+- **Performance and Evaluation**:
+   - The model was evaluated on the training data, and the predictions closely matched the actual GDP values, demonstrating the model’s ability to capture the linear relationship between consecutive years’ GDPs.
+   - The **Actual vs Predicted GDP** plot (available in the web app) provides a visual representation of how well the model fits the historical data.
+
+- **Prediction**:
+   - The model used the **GDP of 2023** as the starting point to forecast India's GDP for **2024**.
+   - The **2024 predicted GDP** value was then used as input to predict India’s GDP for **2025**.
+
+While the model performs well on the training data and provides reasonable forecasts, it is important to note that linear regression models can have limitations, especially for highly complex or non-linear trends. The results should be interpreted as average forecasts based on historical patterns.
 
 ## See the Model Live in Action!
 
@@ -68,5 +88,12 @@ Additionally, check out the [`streamlit_app.py`](https://github.com/neuraledgeai
 Curious about how the model works in practice? You can experience it firsthand by visiting the web app we've developed! This interactive dashboard lets you explore India's GDP forecasts, visualize historical GDP trends, and compare actual versus predicted values with ease.
 
 Check it out here: [India GDP Forecasting Web App](https://india-gdp-forecasting.streamlit.app).
+
+## Access the Full Project
+
+For anyone interested in the full, detailed steps of this project, including everything from data importing, exploration, splitting, model building, tuning, evaluation, and prediction function to saving the model, please refer to the [`Forecasting_India_GDP.ipynb`](https://github.com/neuraledgeai/India_GDP_Forecasting_Project/blob/main/Forecasting_India_GDP.ipynb) notebook. This notebook is the heart of the project, containing all the comprehensive steps for creating the model.
+
+Additionally, check out the [`streamlit_app.py`](https://github.com/neuraledgeai/India_GDP_Forecasting_Project/blob/main/streamlit_app.py) file, which is designed to serve as the main backend for deploying the model as a web app.
+
 
 *This project is proudly dedicated to the open-source community for educational and capability demonstration purposes. It showcases the application of machine learning technology for time series data, while intuitively enhancing essential data science skills. We hope this serves as a valuable resource for anyone looking to explore and learn from practical, real-world examples.*
