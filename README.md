@@ -5,8 +5,8 @@ At the heart of this project is the [`Forecasting_India_GDP.ipynb`](https://gith
 
 ## Table of Contents
 
-- [Dataset Overview](https://github.com/neuraledgeai/India_GDP_Forecasting_Project/edit/main/README.md#dataset-overview)
-- [Purpose](https://github.com/neuraledgeai/India_GDP_Forecasting_Project/edit/main/README.md#purpose)
+- [Dataset Overview](dataset-overview)
+- [Purpose](purpose)
 - Key Features
 - Technologies Used
 - See the Model Live in Action!
