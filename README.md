@@ -65,7 +65,7 @@ This project employs a **Linear Regression** model to forecast India's GDP for t
    - **Input Feature**: The model was trained using India's GDP_L1, which represents the GDP of the previous year. This feature was selected based on the observed strong correlation between current and past GDP values.
    - **Target Variable**: The actual GDP values from 1960 to 2023 served as the target variable, representing the ground truth for the model to learn from.
 
-`DGP = b1 + b2 * GDP_L1`
+<p align="center"> <code>GDP = b1 + b2 * GDP_L1</code> </p>
 
 - **Where**:
    - `b1` is the intercept (constant term),
