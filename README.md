@@ -9,6 +9,7 @@ At the heart of this project is the [`Forecasting_India_GDP.ipynb`](https://gith
 - [Purpose](#purpose)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
+- Access the Full Project(#access-the-full-project)
 - [See the Model Live in Action!](#see-the-model-live-in-action)
 
 ## Dataset Overview
@@ -53,6 +54,12 @@ This project is proudly dedicated to the **open-source community**, with the goa
 - **Scikit-learn**: Machine learning library for building the regression model.
 - **Plotly & Matplotlib**: Libraries for creating interactive visualizations.
 - **Streamlit**: Framework for building web applications for data science.
+
+## Access the Full Project
+
+For anyone interested in the full, detailed steps of this project, including everything from data importing, exploration, splitting, model building, tuning, evaluation, and prediction function to saving the model, please refer to the [`Forecasting_India_GDP.ipynb`](https://github.com/neuraledgeai/India_GDP_Forecasting_Project/blob/main/Forecasting_India_GDP.ipynb) notebook. This notebook is the heart of the project, containing all the comprehensive steps for creating the model.
+
+Additionally, check out the [`streamlit_app.py`](https://github.com/neuraledgeai/India_GDP_Forecasting_Project/blob/main/streamlit_app.py) file, which is designed to serve as the main backend for deploying the model as a web app.
 
 ## See the Model Live in Action!
 
