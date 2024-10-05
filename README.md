@@ -3,7 +3,31 @@ This project utilizes historical GDP data of India from 1960 to 2023 to predict 
 
 At the heart of this project is the [`Forecasting_India_GDP.ipynb`](https://github.com/neuraledgeai/India_GDP_Forecasting_Project/blob/main/Forecasting_India_GDP.ipynb) notebook. This file contains the full analysis, from data preparation and feature engineering to model building and evaluation.
 
+## Table of Contents
 
+- [Dataset Overview]()
+- Purpose
+- Key Features
+- Technologies Used
+- See the Model Live in Action!
+
+## Dataset Overview
+
+The data used in this project is sourced from the [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN), which provides reliable and up-to-date global economic data. The dataset includes India’s GDP values from 1960 to 2023, offering a rich time series for analysis and forecasting.
+
+- **Key Insights from Exploration**:
+
+   - **GDP Growth Over Time**: The data reflects India's gradual economic growth, followed by rapid expansion starting around 2011, coinciding with key economic reforms and global      market shifts.
+   - **Strong Temporal Relationships**: One of the key features analyzed in this project is the strong relationship between GDP and its one-year lag (GDP_L1). This provides insight     into how the previous year's GDP influences future economic outcomes, a fundamental aspect of the linear regression model applied here.
+   - **Outliers and Economic Milestones**: Outliers in the data (such as the steep GDP growth around 2017-2023) mirror significant milestones in India’s economic history, reflecting    fast-paced development, investments, and policy changes.
+
+- **Data Columns**:
+
+  - **Year**: The year the GDP value corresponds to.
+  - **GDP**: India’s Gross Domestic Product in current USD.
+  - **GDP_L1**: A one-year lag of the GDP value used as a feature for model training and prediction.
+
+The exploration phase of the data provided clear evidence of a strong linear trend between past and future GDP values, which was leveraged to build and train the model.
 
 ## Purpose
 This project is designed for **educational purposes** and to demonstrate the **capabilities** of time series analysis using linear regression. Through this project, you’ll gain an intuitive understanding of how to approach time series forecasting in a practical and reasonable way. It encompasses various aspects of data science, such as:
