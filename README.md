@@ -7,9 +7,9 @@ At the heart of this project is the [`Forecasting_India_GDP.ipynb`](https://gith
 
 - [Dataset Overview](#dataset-overview)
 - [Purpose](#purpose)
-- Key Features
-- Technologies Used
-- See the Model Live in Action!
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [See the Model Live in Action!](see-the-model-live-in-action)
 
 ## Dataset Overview
 
