@@ -9,7 +9,7 @@ At the heart of this project is the [`Forecasting_India_GDP.ipynb`](https://gith
 - [Purpose](#purpose)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
-- Access the Full Project(#access-the-full-project)
+- [Access the Full Project](#access-the-full-project)
 - [See the Model Live in Action!](#see-the-model-live-in-action)
 
 ## Dataset Overview
