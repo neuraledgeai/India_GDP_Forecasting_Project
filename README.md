@@ -9,7 +9,7 @@ At the heart of this project is the [`Forecasting_India_GDP.ipynb`](https://gith
 - [Purpose](#purpose)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
-- [See the Model Live in Action](see-the-model-live-in-action)
+- [See the Model Live in Action!](#see-the-model-live-in-action)
 
 ## Dataset Overview
 
@@ -54,7 +54,7 @@ This project is proudly dedicated to the **open-source community**, with the goa
 - **Plotly & Matplotlib**: Libraries for creating interactive visualizations.
 - **Streamlit**: Framework for building web applications for data science.
 
-## See the Model Live in Action
+## See the Model Live in Action!
 
 <img width="1431" alt="Screenshot 2024-09-29 at 6 41 11 PM" src="https://github.com/user-attachments/assets/4527c2d0-603e-4400-a4d6-f139adaa1237">
 
