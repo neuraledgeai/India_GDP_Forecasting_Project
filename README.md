@@ -58,7 +58,7 @@ This project is proudly dedicated to the **open-source community**, with the goa
 
 ## Model Description
 
-This project employs a **Linear Regression** model to forecast India's GDP for the years 2024 and 2025. Linear regression is a fundamental machine learning technique that establishes a relationship between input features and a target variable by fitting a linear equation to the observed data.
+This project employs a **Linear Regression** model to forecast India's GDP for the years 2024 and 2025.
 
 - **Model Training**:
 
