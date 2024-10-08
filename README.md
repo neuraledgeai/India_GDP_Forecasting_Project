@@ -67,7 +67,7 @@ This project employs a **Linear Regression** model to forecast India's GDP for t
 
 <p align="center"> <code>GDP = b1 + b2 * GDP_L1</code> </p>
 
-- **Where**:
+- **Where**,
    - `b1` is the intercept (constant term),
    - `b2` is the coefficient (slope), representing the relationship between the GDP of the previous year and the predicted GDP.
  
