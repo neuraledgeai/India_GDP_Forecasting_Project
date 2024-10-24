@@ -23,3 +23,7 @@ All of this is provided **completely free**. Our mission is to make advanced AI 
 At Neural Edge AI, we’re committed to using AI for good. Our goal is to make advanced data tools accessible and understandable, so everyone can benefit from smarter decision-making. We’re also dedicated to keeping everything open-source, so you can trust that our work is transparent and built for the public.
 
 The India GDP Forecasting Tool is just one of the many ways we’re working to create a better, more informed society. And because we’re non-profit, everything we do is available to the public, free of charge.
+
+## About This Project 
+
+Know more details about this project [here](https://github.com/neuraledgeai/India_GDP_Forecasting_Project/blob/main/technical_details.md).
