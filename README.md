@@ -5,13 +5,21 @@ At the heart of this project is the [`Forecasting_India_GDP.ipynb`](https://gith
 
 ## Table of Contents
 
+- [See the Model Live in Action!](#see-the-model-live-in-action)
 - [Dataset Overview](#dataset-overview)
 - [Purpose of This Project](#purpose-of-this-project)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
 - [Model Description](#model-description)
-- [See the Model Live in Action!](#see-the-model-live-in-action)
 - [Access the Full Project](#access-the-full-project)
+
+## See the Model Live in Action!
+
+<img width="1431" alt="Screenshot 2024-09-29 at 6 41 11 PM" src="https://github.com/user-attachments/assets/4527c2d0-603e-4400-a4d6-f139adaa1237">
+
+Curious about how the model works in practice? You can experience it firsthand by visiting the web app we've developed! This interactive dashboard lets you explore India's GDP forecasts, visualize historical GDP trends, and compare actual versus predicted values with ease.
+
+Check it out here: [India GDP Forecasting Web App](https://india-gdp-forecasting.streamlit.app).
 
 ## Dataset Overview
 
@@ -80,14 +88,6 @@ This project employs a **Linear Regression** model to forecast India's GDP for t
    - The **2024 predicted GDP** value was then used as input to predict India’s GDP for **2025**.
 
 While the model performs well on the training data and provides reasonable forecasts, it is important to note that linear regression models can have limitations, especially for highly complex or non-linear trends. The results should be interpreted as average forecasts based on historical patterns.
-
-## See the Model Live in Action!
-
-<img width="1431" alt="Screenshot 2024-09-29 at 6 41 11 PM" src="https://github.com/user-attachments/assets/4527c2d0-603e-4400-a4d6-f139adaa1237">
-
-Curious about how the model works in practice? You can experience it firsthand by visiting the web app we've developed! This interactive dashboard lets you explore India's GDP forecasts, visualize historical GDP trends, and compare actual versus predicted values with ease.
-
-Check it out here: [India GDP Forecasting Web App](https://india-gdp-forecasting.streamlit.app).
 
 ## Access the Full Project
 
